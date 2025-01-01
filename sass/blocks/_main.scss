@@ -1,0 +1,128 @@
+.cake {
+  padding: 100px 0;
+}
+
+.cake__wrapper {
+  display: flex;
+}
+
+.cake__info {
+  color: #ffffff;
+}
+
+.cake__title {
+  font-family: Wendy One;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 105.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #642c99;
+  margin-bottom: 10px;
+}
+.cake__text {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #642c99;
+  margin-bottom: 46px;
+}
+
+.btn {
+  width: 206px;
+  height: 43px;
+  top: 334px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fbfac9;
+  background-color: #642c99;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.cake__img {
+  margin-top: -100px;
+ 
+}
+
+.celebarating {
+  width: 100%;
+  height: 1039.46px;
+  top: 589px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #5D3394;
+}
+
+.celebrating__wrapper {
+  padding-top: 260px;
+}
+
+.celebrating__title {
+  font-family: Wendy One;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 73.85px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #feefd0;
+  margin-bottom: 41px;
+}
+.celebrating__text {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fbfac9;
+}
+
+.sweets {
+  width: 100%;
+  height: 496px;
+  margin-top: -124px;
+  margin-bottom: 124px;
+}
+
+@media only screen and (max-width: 480px) {
+  .cake {
+  }
+
+  .cake__wrapper {
+    flex-direction: column;
+  }
+
+  .cake__img {
+    margin-top: 47px;
+  }
+
+  .celebrating__wrapper {
+    width: 375px;
+    height: 896px;
+    top: 621px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .sweets {
+    max-width: 90%;
+    margin-top: -200px;
+    margin-left: 22px;
+  }
+}

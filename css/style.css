@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Wendy+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  padding: 37px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  cursor: pointer;
+  margin-top: 13px;
+}
+
+.header__menu {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.header__link {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  width: 102px;
+  height: auto;
+  top: 37px;
+  left: 126px;
+  gap: 0px;
+  opacity: 0px;
+  width: 102px;
+  color: #642c99;
+}
+
+.header__link:active {
+  font-family: Lato;
+  width: 185px;
+  height: auto;
+  top: 37px;
+  left: 45px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 21.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #642c99;
+}
+
+@media only screen and (max-width: 480px) {
+  .header__menu {
+    display: none;
+  }
+}
+.cake {
+  padding: 100px 0;
+}
+
+.cake__wrapper {
+  display: flex;
+}
+
+.cake__info {
+  color: #ffffff;
+}
+
+.cake__title {
+  font-family: Wendy One;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 105.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #642c99;
+  margin-bottom: 10px;
+}
+
+.cake__text {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #642c99;
+  margin-bottom: 46px;
+}
+
+.btn {
+  width: 206px;
+  height: 43px;
+  top: 334px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #fbfac9;
+  background-color: #642c99;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.cake__img {
+  margin-top: -100px;
+}
+
+.celebarating {
+  width: 100%;
+  height: 1039.46px;
+  top: 589px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #5D3394;
+}
+
+.celebrating__wrapper {
+  padding-top: 260px;
+}
+
+.celebrating__title {
+  font-family: Wendy One;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 73.85px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #feefd0;
+  margin-bottom: 41px;
+}
+
+.celebrating__text {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #fbfac9;
+}
+
+.sweets {
+  width: 100%;
+  height: 496px;
+  margin-top: -124px;
+  margin-bottom: 124px;
+}
+
+@media only screen and (max-width: 480px) {
+  .cake__wrapper {
+    flex-direction: column;
+  }
+  .cake__img {
+    margin-top: 47px;
+  }
+  .celebrating__wrapper {
+    width: 375px;
+    height: 896px;
+    top: 621px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .sweets {
+    max-width: 90%;
+    margin-top: -200px;
+    margin-left: 22px;
+  }
+}
+.footer {
+  width: 100%;
+  height: 1439.26px;
+  background-color: #5d3394;
+}
+
+.footer__inner {
+  padding-top: 154px;
+}
+
+.london {
+  width: 100%;
+  height: 496px;
+  top: 3027px;
+  left: 19px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 80px;
+  border-radius: 5px;
+}
+
+.footer__wrapper {
+  margin-top: 119px;
+  display: flex;
+}
+
+.footer__subtitle {
+  font-family: Wendy One;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 33.76px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #fdefd1;
+  margin-right: 141px;
+}
+
+.footer__text {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #fdefd1;
+  margin-bottom: 27.26px;
+}
+
+.footer__input {
+  width: 394px;
+  height: 43.42px;
+  top: 3699.55px;
+  left: 330px;
+  gap: 0px;
+  border-radius: 8px;
+  border: none;
+  opacity: 0px;
+  border: 2px solid #fdefd1;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #fdefd1;
+  background-color: transparent;
+  outline: none;
+  padding-left: 23px;
+}
+
+input::-moz-placeholder {
+  color: #fdefd1;
+}
+
+input::placeholder {
+  color: #fdefd1;
+}
+
+.footer__btn {
+  width: 106px;
+  height: 43.42px;
+  top: 3699.55px;
+  left: 756px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 8px;
+  background-color: #fdefd1;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #642c99;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 32px;
+}
+
+.footer__sm {
+  display: none;
+}
+
+.footer__list {
+  display: flex;
+  gap: 110px;
+  margin-top: 67px;
+}
+
+.item {
+  cursor: pointer;
+}
+
+.item__name {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #fdefd1;
+}
+
+.footer__sponsors {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #fdefd1;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+  .london {
+    width: 100%;
+    height: 194px;
+    margin-bottom: 127px;
+  }
+  .footer {
+    height: 1639.26px;
+  }
+  .footer__wrapper {
+    flex-wrap: wrap;
+  }
+  .footer__info {
+    flex-wrap: wrap;
+    margin-top: 52px;
+  }
+  .footer__btn {
+    display: none;
+  }
+  .footer__sm {
+    min-width: 100%;
+    height: 43px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: #fdefd1;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
+    color: #642c99;
+    display: block;
+    border: none;
+    text-align: center;
+    margin-top: 31px;
+  }
+}/*# sourceMappingURL=style.css.map */
